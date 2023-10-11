@@ -17,10 +17,10 @@ def calculate_age(birthdate):
     return age
 
 # 사용자로부터 생년월일 입력 받기
-birthdate = input("생년월일(예: 2000-01-01)을 입력하세요: ")
+birthdate = input("생년월일(예: 2000-01-01)을 입력하세용: ")
 
 # 만 나이 계산
 age = calculate_age(birthdate)
 
 # 결과 출력
-print(f"만 나이: {age}세 입니다")
+print(f"만 나이: {age}세 입니당")
