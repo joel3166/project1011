@@ -23,4 +23,4 @@ birthdate = input("생년월일(예: 2000-01-01)을 입력하세요: ")
 age = calculate_age(birthdate)
 
 # 결과 출력
-print(f"만 나이: {age}세")
+print(f"만 나이: {age}세 입니다")
