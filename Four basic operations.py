@@ -7,9 +7,13 @@ addition = num1 + num2
 print(f"덧셈 결과: {addition}")
 
 # 뺄셈
-subtraction = num1 - num2
-print(f"뺄셈 결과: {subtraction}")
-
+if num1 > num2:
+    subtraction = num1 - num2
+    print(f"뺄셈 결과: {subtraction}")
+else:
+    subtraction = num2 - num1
+    print(f"뺄셈 결과: {subtraction}")
+    
 # 곱셈
 multiplication = num1 * num2
 print(f"곱셈 결과: {multiplication}")
